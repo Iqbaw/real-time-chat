@@ -1,0 +1,30 @@
+#username-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #username-input {
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    font-size: 1em;
+  }
+  
+  #enter-chat {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #enter-chat:hover {
+    background-color: #004d40;
+  }
+  

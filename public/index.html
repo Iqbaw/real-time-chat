@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-Time Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="username-container">
+    <h1>Masukkan Username</h1>
+    <input type="text" id="username-input" placeholder="Masukkan nama kamu" />
+    <button id="enter-chat">Masuk Chat</button>
+  </div>
+
+  <div id="chat-container" style="display: none;">
+    <h1>Real-Time Chat</h1>
+    <div id="messages"></div>
+    <form id="form" action="">
+      <input id="input" autocomplete="off" placeholder="Ketik pesan..." /><button>Kirim</button>
+    </form>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
